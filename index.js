@@ -176,4 +176,4 @@ app.post('/api/partner', async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`🌐 웹 서버 실행 중: 포트 ${PORT}`));
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.TOKEN);
